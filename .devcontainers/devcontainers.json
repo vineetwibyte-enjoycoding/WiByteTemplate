@@ -33,6 +33,24 @@
                 "github.copilot.chat.editor.enableCodeActions": false,
                 "github.copilot.editor.enableInlineChat": false,
 
+                // 1. KILL THE "GENERATE" FLOATING BUTTON
+                "github.copilot.editor.enableAutoCompletions": false,
+                "github.copilot.editor.enableCodeActions": false,
+                "github.copilot.editor.enableInlineChat": false, // This usually stops the shortcut
+    
+                // 2. THE "GHOST" PROMPT IN EMPTY FILES
+                // This stops the "Press Ctrl+I to generate" text appearing in new files
+                "github.copilot.editor.showInlayHints": false,
+                "github.copilot.chat.editor.temporaryHints": false,
+
+                // 3. FORCE THE SIDEBAR ONLY
+                // This tells the AI it is NOT allowed to edit the document directly
+                "github.copilot.chat.editor.enableCodeActions": false,
+                "github.copilot.chat.runCommand.enabled": false
+}
+
+
+                
                 // --- 3. PERFORMANCE: "VANILLA" SPEED ---
                 "python.analysis.indexing": false, // Stops background library scanning
                 "chat.mcp.autostart": "never",     // Prevents the "Chat is almost ready" hang
