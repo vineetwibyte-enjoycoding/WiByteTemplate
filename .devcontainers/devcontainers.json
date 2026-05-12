@@ -47,7 +47,7 @@
                 // This tells the AI it is NOT allowed to edit the document directly
                 "github.copilot.chat.editor.enableCodeActions": false,
                 "github.copilot.chat.runCommand.enabled": false
-}
+
 
 
                 
