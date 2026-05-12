@@ -51,7 +51,22 @@
                 "workbench.tips.enabled": false,
                 "inlineChat.showDirectAction": false
 
-                
+                // This kills the "Press Ctrl+I" hint text in empty files
+                "inlineChat.acceptedInteractions": {
+                    "inlineChat": false
+                },
+                // This kills the floating "lightbulb" and AI suggestions in the code
+                "editor.lightbulb.enabled": "off",
+                "editor.codeActionsOnSave": {},
+    
+                // This hides the specific "Getting Started" tips that keep coming back
+                "workbench.tips.enabled": false,
+                "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    
+                // Disable the interactive "hints" for Copilot
+                "github.copilot.editor.showInlayHints": false,
+                "github.copilot.editor.enableInlineChat": false
+
                 // --- 3. PERFORMANCE: "VANILLA" SPEED ---
                 "python.analysis.indexing": false, // Stops background library scanning
                 "chat.mcp.autostart": "never",     // Prevents the "Chat is almost ready" hang
