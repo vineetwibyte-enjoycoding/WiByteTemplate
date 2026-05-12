@@ -11,8 +11,10 @@
         "vscode": {
             "extensions": [
                 "ms-python.python",      // Adds the "Play" button for Class 1
+                "ms-python.vscode-pylance", // This is the "Brain" of the Python extension
                 "github.copilot",        // Power for the Tutor
                 "github.copilot-chat"    // The Tutor sidebar
+                "extensions.ignoreRecommendations": true
             ],
             "settings": {
                 // --- 1. LAYOUT: REPLIT-STYLE VERTICAL STACK ---
