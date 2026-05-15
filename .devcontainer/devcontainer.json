@@ -1,5 +1,5 @@
 {
-    "name": "WiByte Stable Lab",
+    "name": "WiByte Python Lab",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {
         "ghcr.io/devcontainers/features/desktop-lite:1": {}
@@ -8,9 +8,8 @@
     "customizations": {
         "vscode": {
             "extensions": [
-               "GitHub.copilot-chat", 
+               "github.copilot", 
                "ms-python.python",
-               "ms-python.vscode-pylance"
             ],
             "settings": {
                 // Disables the "Quick Fix" lightbulb so students must fix their own typos
