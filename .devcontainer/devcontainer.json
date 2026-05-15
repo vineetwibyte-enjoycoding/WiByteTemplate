@@ -20,10 +20,16 @@
                 "editor.suggestOnTriggerCharacters": true,
                 "editor.parameterHints.enabled": true,
 
+                "github.completions.enabled": {
+                  "*": false
+                },
+                // Completely disables the Ctrl+I Inline Chat prompt
+                "github.copilot.editor.enableInlineChat": false,
+
                 "github.copilot.editor.enableAutoCompletions": false,
                 "github.copilot.inlineSuggest.enabled": false, 
                 "inlineChat.askInChat": false,
-                "github.copilot.chat.inlineChat.enabled": false
+                "github.copilot.chat.inlineChat.enabled": false,
 
                 // This ensures the README is the first thing they see
                 "workbench.startupEditor": "readme"
