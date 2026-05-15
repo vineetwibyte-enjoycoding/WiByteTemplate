@@ -18,7 +18,7 @@
 
                 // Standard coding aids (IntelliSense) stay active
                 "editor.suggestOnTriggerCharacters": true,
-                "editor.parameterHints.enabled": true
+                "editor.parameterHints.enabled": true,
 
                 "github.copilot.editor.enableAutoCompletions": false,
                 "github.copilot.inlineSuggest.enabled": false
