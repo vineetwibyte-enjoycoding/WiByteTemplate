@@ -19,9 +19,12 @@
                 // Standard coding aids (IntelliSense) stay active
                 "editor.suggestOnTriggerCharacters": true,
                 "editor.parameterHints.enabled": true
+
+                "github.copilot.editor.enableAutoCompletions": false,
+                "github.copilot.inlineSuggest.enabled": false
             }
         }
     },
     // This command ensures the instruction file opens for the student immediately
-    "postCreateCommand": "code README.md"
+    "postCreateCommand": "code readme.md"
 }
