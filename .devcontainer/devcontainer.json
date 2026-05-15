@@ -29,5 +29,6 @@
             }
         }
     },
-    // This command ensures the instruction file opens for the student immediately
+    // This command installs Turtle/Tkinter as needed. 
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y python3-tk"
 }
