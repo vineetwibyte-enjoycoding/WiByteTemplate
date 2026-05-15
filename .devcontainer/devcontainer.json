@@ -8,8 +8,9 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-python.python",
-                "github.copilot"
+               "GitHub.copilot-chat", 
+               "ms-python.python",
+               "ms-python.vscode-pylance"
             ],
             "settings": {
                 // Disables the "Quick Fix" lightbulb so students must fix their own typos
